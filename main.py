@@ -1,8 +1,7 @@
-from Developer import Developer
-from Mieszkanie import Mieszkanie
-from Dom import Dom
-from Zamowienie import Zamowienie
-from Parametry_nieruchomosci import ParametryNieruchomości
+from Klasy.Developer import Developer
+from Klasy.Mieszkanie import Mieszkanie
+from Klasy.Dom import Dom
+from Klasy.Zamowienie import Zamowienie
 
 if __name__ == '__main__':
     deweloper = Developer("Adam", 45, "Warszawa", "Domy jednorodzinne")
